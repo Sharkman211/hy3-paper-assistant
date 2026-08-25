@@ -1,0 +1,75 @@
+{
+  "_comment": "专家（作者）参考标注：作为『人工标注』基准，用于一致性验证（与人类标注的一致程度）。每个候选样本给出 6 维专家分与整体预期。",
+  "paper": "dataset/paper.txt",
+  "candidates": [
+    {
+      "id": "good",
+      "tier": "good",
+      "note_file": "dataset/candidates/notes/good.md",
+      "expected_overall": 4.8,
+      "expected_rank": 1,
+      "expert": {
+        "factual_accuracy": 5, "completeness": 5, "traceability": 5,
+        "terminology": 5, "format": 5, "readability": 5
+      }
+    },
+    {
+      "id": "medium",
+      "tier": "medium",
+      "note_file": "dataset/candidates/notes/medium.md",
+      "expected_overall": 3.4,
+      "expected_rank": 3,
+      "expert": {
+        "factual_accuracy": 4, "completeness": 4, "traceability": 4,
+        "terminology": 4, "format": 4, "readability": 4
+      }
+    },
+    {
+      "id": "bad",
+      "tier": "bad",
+      "note_file": "dataset/candidates/notes/bad.md",
+      "expected_overall": 1.6,
+      "expected_rank": 6,
+      "expert": {
+        "factual_accuracy": 1, "completeness": 2, "traceability": 2,
+        "terminology": 2, "format": 2, "readability": 2
+      }
+    },
+    {
+      "id": "adv_padding",
+      "tier": "adversarial_padding",
+      "note_file": "dataset/candidates/notes/adv_padding.md",
+      "expected_overall": 4.3,
+      "expected_rank": 2,
+      "expert": {
+        "factual_accuracy": 5, "completeness": 5, "traceability": 5,
+        "terminology": 5, "format": 5, "readability": 2
+      },
+      "adversarial_note": "堆篇幅：正确内容 + 大量冗余水话；预期不应因篇幅长而超过 good。"
+    },
+    {
+      "id": "adv_jargon",
+      "tier": "adversarial_jargon",
+      "note_file": "dataset/candidates/notes/adv_jargon.md",
+      "expected_overall": 2.6,
+      "expected_rank": 5,
+      "expert": {
+        "factual_accuracy": 2, "completeness": 5, "traceability": 5,
+        "terminology": 1, "format": 5, "readability": 3
+      },
+      "adversarial_note": "堆术语：生造大量原文不存在的术语；预期术语维度低、整体不被高估。"
+    },
+    {
+      "id": "adv_cite",
+      "tier": "adversarial_citation",
+      "note_file": "dataset/candidates/notes/adv_cite.md",
+      "expected_overall": 1.8,
+      "expected_rank": 4,
+      "expert": {
+        "factual_accuracy": 1, "completeness": 5, "traceability": 2,
+        "terminology": 5, "format": 5, "readability": 4
+      },
+      "adversarial_note": "伪造引用/数值：引用原文不存在的文献与夸张指标；预期事实准确性与可追溯性被拉低。"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "checks": [
+    {
+      "name": "堆篇幅不抬高评分",
+      "detail": "adv_padding 字数=12127（good=6960），整体分=4.85 vs good=4.85",
+      "pass": true
+    },
+    {
+      "name": "堆术语不被误判高质量",
+      "detail": "adv_jargon terminology=1 vs good=5；整体分=2.7",
+      "pass": true
+    },
+    {
+      "name": "伪造引用/数值被捕获并扣分",
+      "detail": "检测到伪造引用=['[99]', '[99]', 'arXiv:9999.99999', 'arXiv:8888.00001', 'arXiv:7777.11111', 'arXiv:9999.99999', 'arXiv:8888.00001', 'arXiv:7777.11111', 'Smith et al.', 'Lee et al.', 'Brown et al.', 'Smith et al.', 'Lee et al.', 'Brown et al.']；factual=1 vs good=5；整体分=3.6",
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

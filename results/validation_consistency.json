@@ -1,0 +1,134 @@
+{
+  "N_runs": 5,
+  "stability": {
+    "good": {
+      "mean": {
+        "factual_accuracy": 5,
+        "completeness": 4,
+        "traceability": 5,
+        "terminology": 5,
+        "format": 5,
+        "readability": 5
+      },
+      "std": {
+        "factual_accuracy": 0.0,
+        "completeness": 0.0,
+        "traceability": 0.0,
+        "terminology": 0.0,
+        "format": 0.0,
+        "readability": 0.0
+      },
+      "overall_mean": 4.85,
+      "overall_std": 0.0
+    },
+    "medium": {
+      "mean": {
+        "factual_accuracy": 4,
+        "completeness": 5,
+        "traceability": 5,
+        "terminology": 5,
+        "format": 5,
+        "readability": 5
+      },
+      "std": {
+        "factual_accuracy": 0.0,
+        "completeness": 0.0,
+        "traceability": 0.0,
+        "terminology": 0.0,
+        "format": 0.0,
+        "readability": 0.0
+      },
+      "overall_mean": 4.75,
+      "overall_std": 0.0
+    },
+    "bad": {
+      "mean": {
+        "factual_accuracy": 1,
+        "completeness": 3,
+        "traceability": 3,
+        "terminology": 3,
+        "format": 3,
+        "readability": 5
+      },
+      "std": {
+        "factual_accuracy": 0.0,
+        "completeness": 0.0,
+        "traceability": 0.0,
+        "terminology": 0.0,
+        "format": 0.0,
+        "readability": 0.0
+      },
+      "overall_mean": 2.8,
+      "overall_std": 0.0
+    },
+    "adv_padding": {
+      "mean": {
+        "factual_accuracy": 5,
+        "completeness": 4,
+        "traceability": 5,
+        "terminology": 5,
+        "format": 5,
+        "readability": 5
+      },
+      "std": {
+        "factual_accuracy": 0.0,
+        "completeness": 0.0,
+        "traceability": 0.0,
+        "terminology": 0.0,
+        "format": 0.0,
+        "readability": 0.0
+      },
+      "overall_mean": 4.85,
+      "overall_std": 0.0
+    },
+    "adv_jargon": {
+      "mean": {
+        "factual_accuracy": 1,
+        "completeness": 5,
+        "traceability": 3,
+        "terminology": 1,
+        "format": 5,
+        "readability": 3
+      },
+      "std": {
+        "factual_accuracy": 0.0,
+        "completeness": 0.0,
+        "traceability": 0.0,
+        "terminology": 0.0,
+        "format": 0.0,
+        "readability": 0.0
+      },
+      "overall_mean": 2.7,
+      "overall_std": 0.0
+    },
+    "adv_cite": {
+      "mean": {
+        "factual_accuracy": 0.6,
+        "completeness": 5,
+        "traceability": 3,
+        "terminology": 3.8,
+        "format": 5,
+        "readability": 5
+      },
+      "std": {
+        "factual_accuracy": 0.49,
+        "completeness": 0.0,
+        "traceability": 0.0,
+        "terminology": 0.98,
+        "format": 0.0,
+        "readability": 0.0
+      },
+      "overall_mean": 3.32,
+      "overall_std": 0.246
+    }
+  },
+  "spearman_vs_expert_overall": 0.814,
+  "per_dimension_MAE_vs_expert": {
+    "factual_accuracy": 0.167,
+    "completeness": 0.667,
+    "traceability": 0.833,
+    "terminology": 0.333,
+    "format": 0.333,
+    "readability": 1.333
+  }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" font-family="sans-serif" font-size="12">
+<text x="360" y="18" text-anchor="middle" font-size="14" font-weight="bold">各维度 MAE（评估分与专家分的平均绝对误差）</text>
+<line x1="70" y1="280.0" x2="700" y2="280.0" stroke="#ddd"/>
+<text x="64" y="284.0" text-anchor="end" fill="#666">0</text>
+<line x1="70" y1="198.46053489889107" x2="700" y2="198.46053489889107" stroke="#ddd"/>
+<text x="64" y="202.46053489889107" text-anchor="end" fill="#666">0.5</text>
+<line x1="70" y1="116.92106979778211" x2="700" y2="116.92106979778211" stroke="#ddd"/>
+<text x="64" y="120.92106979778211" text-anchor="end" fill="#666">1.0</text>
+<line x1="70" y1="35.38160469667318" x2="700" y2="35.38160469667318" stroke="#ddd"/>
+<text x="64" y="39.38160469667318" text-anchor="end" fill="#666">1.5</text>
+<rect x="82.0" y="252.7658186562296" width="81.0" height="27.2" fill="#3aa76d"/>
+<text x="122.5" y="248.7658186562296" text-anchor="middle" font-size="10">0.167</text>
+<text x="122.5" y="296" text-anchor="middle" font-size="10">事实准确性</text>
+<rect x="187.0" y="171.22635355512068" width="81.0" height="108.8" fill="#3aa76d"/>
+<text x="227.5" y="167.22635355512068" text-anchor="middle" font-size="10">0.667</text>
+<text x="227.5" y="296" text-anchor="middle" font-size="10">要点完整度</text>
+<rect x="292.0" y="144.15525114155253" width="81.0" height="135.8" fill="#3aa76d"/>
+<text x="332.5" y="140.15525114155253" text-anchor="middle" font-size="10">0.833</text>
+<text x="332.5" y="296" text-anchor="middle" font-size="10">证据可追溯性</text>
+<rect x="397.0" y="225.69471624266143" width="81.0" height="54.3" fill="#3aa76d"/>
+<text x="437.5" y="221.69471624266143" text-anchor="middle" font-size="10">0.333</text>
+<text x="437.5" y="296" text-anchor="middle" font-size="10">术语正确性</text>
+<rect x="502.0" y="225.69471624266143" width="81.0" height="54.3" fill="#3aa76d"/>
+<text x="542.5" y="221.69471624266143" text-anchor="middle" font-size="10">0.333</text>
+<text x="542.5" y="296" text-anchor="middle" font-size="10">格式规范性</text>
+<rect x="607.0" y="62.615786040443574" width="81.0" height="217.4" fill="#3aa76d"/>
+<text x="647.5" y="58.615786040443574" text-anchor="middle" font-size="10">1.333</text>
+<text x="647.5" y="296" text-anchor="middle" font-size="10">可读性</text>
+</svg>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Hy3 论文阅读助手 · Demo</title>
+<style>
+  body{font-family:system-ui,"Microsoft YaHei",sans-serif;margin:0;background:#f5f7fb;color:#1c1c28}
+  .wrap{max-width:760px;margin:0 auto;padding:28px}
+  h1{color:#1c2e5c}
+  .card{background:#fff;border:1px solid #e3e8f2;border-radius:12px;padding:18px;margin:16px 0;box-shadow:0 2px 10px rgba(20,40,90,.06)}
+  img{border-radius:10px;border:1px solid #e3e8f2;display:block;margin:10px auto;max-width:100%}
+  .flow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0}
+  .box{background:#1c2e5c;color:#fff;border-radius:8px;padding:10px 12px;font-size:13px}
+  .arrow{color:#e6781e;font-weight:700}
+  code{background:#eef1f7;padding:2px 6px;border-radius:5px}
+  .tag{display:inline-block;background:#eaf1ff;color:#1c2e5c;border-radius:6px;padding:3px 8px;margin:3px;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Hy3 论文结构化阅读助手 · 演示</h1>
+  <div class="card">
+    <p>下方为演示视频（约 56 秒，&lt; 2 分钟），展示从「输入论文 → 生成 5 板块笔记 → 6 维评估 → 评测结果」的完整流程：</p>
+    <video controls autoplay loop muted playsinline style="border-radius:10px;border:1px solid #e3e8f2;display:block;margin:10px auto;max-width:100%">
+      <source src="demo.mp4" type="video/mp4">
+      您的浏览器不支持视频，请查看 <a href="demo.mp4">demo.mp4</a>。
+    </video>
+    <div class="flow">
+      <span class="box">论文原文</span><span class="arrow">→</span>
+      <span class="box">Hy3 生成笔记</span><span class="arrow">→</span>
+      <span class="box">6 维评估</span><span class="arrow">→</span>
+      <span class="box">等级 A</span>
+    </div>
+    <p style="text-align:center;color:#666;font-size:12px">动画 GIF（循环，单轮约 5 秒）：</p>
+    <img src="demo.gif" alt="demo animation">
+  </div>
+
+  <div class="card">
+    <h3>六维度评估</h3>
+    <span class="tag">事实准确性</span><span class="tag">要点完整度</span><span class="tag">证据可追溯性</span>
+    <span class="tag">专业术语正确性</span><span class="tag">格式规范性</span><span class="tag">可读性</span>
+    <p>各维度 0–5 分、带可操作锚点；规则校验（格式/完整度/可追溯）+ LLM-as-judge（事实/术语/可读）混合。</p>
+  </div>
+
+  <div class="card">
+    <h3>本地运行</h3>
+    <p><code>python src/app.py --paper dataset/papers/paper_dfineseg.txt</code></p>
+    <p><code>python eval/run_eval.py</code></p>
+    <p>详见仓库 <code>README.md</code> 与 <code>report/analysis_report.md</code>。</p>
+  </div>
+</div>
+</body>
+</html>

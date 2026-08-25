@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Demo 二进制资源标记为 binary，避免被当作文本 diff
+demo/*.mp4 binary
+demo/*.gif binary

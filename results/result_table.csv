@@ -1,0 +1,8 @@
+﻿paper_id,overall,grade,mode,factual_accuracy,completeness,traceability,terminology,format,readability,fabricated_citations,comment
+paper_detr_dense,5.0,优 (A),llm,5,5,5,5,5,5,,笔记准确覆盖原文核心内容，术语规范，结构清晰，无编造。
+paper_dfineseg,4.85,优 (A),llm,5,4,5,5,5,5,,笔记结构清晰，事实准确涵盖原文核心内容，术语使用规范，可读性强，仅少量推断明确标注，无编造。
+paper_finance,5.0,优 (A),llm,5,5,5,5,5,5,,笔记准确覆盖原文方法与结果，术语规范，结构清晰，推断部分明确标注，无编造。
+paper_medical,4.6,优 (A),llm,4,4,5,5,5,5,,笔记准确提炼原文方法、实验与局限，仅个别动机表述稍显引申，术语规范，结构清晰。
+paper_nlp,4.75,优 (A),llm,4,5,5,5,5,5,,笔记准确概括论文方法、实验与局限，术语使用规范，条理清晰；仅创新点中‘首次给出全称’略带主观表述，原文未声称首创，属轻微偏差。
+paper_smallobj,5.0,优 (A),llm,5,5,5,5,5,5,,笔记准确覆盖原文方法与结果，术语规范，结构清晰。
+paper_yolo26,5.0,优 (A),llm,5,5,5,5,5,5,,笔记完整准确复述原文关键信息，术语使用规范，结构清晰重点突出，可读性高。

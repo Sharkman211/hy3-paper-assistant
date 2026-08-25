@@ -1,0 +1,303 @@
+[
+  {
+    "paper_id": "paper_detr_dense",
+    "overall": 5.0,
+    "grade": "优 (A)",
+    "mode": "llm",
+    "scores": {
+      "factual_accuracy": 5,
+      "completeness": 5,
+      "traceability": 5,
+      "terminology": 5,
+      "format": 5,
+      "readability": 5
+    },
+    "evidence": {
+      "format": {
+        "sections_hit": 5,
+        "has_bullets": true,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "completeness": {
+        "sections_hit": 5,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "traceability": {
+        "trace_ratio": 0.937
+      }
+    },
+    "comment": "笔记准确覆盖原文核心内容，术语规范，结构清晰，无编造。",
+    "fabricated_citations": [],
+    "note_path": "output\\note_paper_detr_dense.md"
+  },
+  {
+    "paper_id": "paper_dfineseg",
+    "overall": 4.85,
+    "grade": "优 (A)",
+    "mode": "llm",
+    "scores": {
+      "factual_accuracy": 5,
+      "completeness": 4,
+      "traceability": 5,
+      "terminology": 5,
+      "format": 5,
+      "readability": 5
+    },
+    "evidence": {
+      "format": {
+        "sections_hit": 5,
+        "has_bullets": true,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "completeness": {
+        "sections_hit": 5,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "traceability": {
+        "trace_ratio": 0.994
+      }
+    },
+    "comment": "笔记结构清晰，事实准确涵盖原文核心内容，术语使用规范，可读性强，仅少量推断明确标注，无编造。",
+    "fabricated_citations": [],
+    "note_path": "output\\note_paper_dfineseg.md"
+  },
+  {
+    "paper_id": "paper_finance",
+    "overall": 5.0,
+    "grade": "优 (A)",
+    "mode": "llm",
+    "scores": {
+      "factual_accuracy": 5,
+      "completeness": 5,
+      "traceability": 5,
+      "terminology": 5,
+      "format": 5,
+      "readability": 5
+    },
+    "evidence": {
+      "format": {
+        "sections_hit": 5,
+        "has_bullets": true,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "completeness": {
+        "sections_hit": 5,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "traceability": {
+        "trace_ratio": 0.961
+      }
+    },
+    "comment": "笔记准确覆盖原文方法与结果，术语规范，结构清晰，推断部分明确标注，无编造。",
+    "fabricated_citations": [],
+    "note_path": "output\\note_paper_finance.md"
+  },
+  {
+    "paper_id": "paper_medical",
+    "overall": 4.6,
+    "grade": "优 (A)",
+    "mode": "llm",
+    "scores": {
+      "factual_accuracy": 4,
+      "completeness": 4,
+      "traceability": 5,
+      "terminology": 5,
+      "format": 5,
+      "readability": 5
+    },
+    "evidence": {
+      "format": {
+        "sections_hit": 5,
+        "has_bullets": true,
+        "hit": [
+          "存在不足与未来方向",
+          "实验结果与分析",
+          "核心方法",
+          "研究目标",
+          "主要创新点"
+        ]
+      },
+      "completeness": {
+        "sections_hit": 5,
+        "hit": [
+          "存在不足与未来方向",
+          "实验结果与分析",
+          "核心方法",
+          "研究目标",
+          "主要创新点"
+        ]
+      },
+      "traceability": {
+        "trace_ratio": 0.958
+      }
+    },
+    "comment": "笔记准确提炼原文方法、实验与局限，仅个别动机表述稍显引申，术语规范，结构清晰。",
+    "fabricated_citations": [],
+    "note_path": "output\\note_paper_medical.md"
+  },
+  {
+    "paper_id": "paper_nlp",
+    "overall": 4.75,
+    "grade": "优 (A)",
+    "mode": "llm",
+    "scores": {
+      "factual_accuracy": 4,
+      "completeness": 5,
+      "traceability": 5,
+      "terminology": 5,
+      "format": 5,
+      "readability": 5
+    },
+    "evidence": {
+      "format": {
+        "sections_hit": 5,
+        "has_bullets": true,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "completeness": {
+        "sections_hit": 5,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "traceability": {
+        "trace_ratio": 0.957
+      }
+    },
+    "comment": "笔记准确概括论文方法、实验与局限，术语使用规范，条理清晰；仅创新点中‘首次给出全称’略带主观表述，原文未声称首创，属轻微偏差。",
+    "fabricated_citations": [],
+    "note_path": "output\\note_paper_nlp.md"
+  },
+  {
+    "paper_id": "paper_smallobj",
+    "overall": 5.0,
+    "grade": "优 (A)",
+    "mode": "llm",
+    "scores": {
+      "factual_accuracy": 5,
+      "completeness": 5,
+      "traceability": 5,
+      "terminology": 5,
+      "format": 5,
+      "readability": 5
+    },
+    "evidence": {
+      "format": {
+        "sections_hit": 5,
+        "has_bullets": true,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "completeness": {
+        "sections_hit": 5,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "traceability": {
+        "trace_ratio": 1.0
+      }
+    },
+    "comment": "笔记准确覆盖原文方法与结果，术语规范，结构清晰。",
+    "fabricated_citations": [],
+    "note_path": "output\\note_paper_smallobj.md"
+  },
+  {
+    "paper_id": "paper_yolo26",
+    "overall": 5.0,
+    "grade": "优 (A)",
+    "mode": "llm",
+    "scores": {
+      "factual_accuracy": 5,
+      "completeness": 5,
+      "traceability": 5,
+      "terminology": 5,
+      "format": 5,
+      "readability": 5
+    },
+    "evidence": {
+      "format": {
+        "sections_hit": 5,
+        "has_bullets": true,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "completeness": {
+        "sections_hit": 5,
+        "hit": [
+          "主要创新点",
+          "研究目标",
+          "核心方法",
+          "实验结果与分析",
+          "存在不足与未来方向"
+        ]
+      },
+      "traceability": {
+        "trace_ratio": 0.95
+      }
+    },
+    "comment": "笔记完整准确复述原文关键信息，术语使用规范，结构清晰重点突出，可读性高。",
+    "fabricated_citations": [],
+    "note_path": "output\\note_paper_yolo26.md"
+  }
+]

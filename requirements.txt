@@ -1,0 +1,9 @@
+# 应用与评测核心：仅依赖 Python 标准库（urllib / json / re 等），无需第三方包。
+# 最低 Python 版本：3.8
+#
+# 若希望用 openai SDK 替代内置 client，可取消下一行注释：
+# openai>=1.0
+#
+# （可选）生成 Demo 视频/动画 才需要以下第三方包：
+#   pip install pillow imageio imageio-ffmpeg
+# 不安装也能正常跑应用与评测，只是无法重新生成 demo.mp4 / demo.gif。
