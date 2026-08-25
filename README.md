@@ -1,7 +1,8 @@
 # hy3-paper-assistant · 论文结构化阅读助手 + 自定义评估方法
 
-> 犀牛鸟实战任务作品（非腾讯官方项目）。基于 **Hy3（腾讯混元 HY-3）** 构建一个面向真实用户场景的
-> AI 应用（学术方向：论文阅读助手），并自行设计、实现、验证了面向该开放场景的评估方法。
+> 基于 **Hy3（腾讯混元 HY-3）** 构建一个面向真实用户场景的 AI 应用（学术方向：论文阅读助手），
+> 并自行设计、实现、验证了面向该开放场景的评估方法。
+
 
 ---
 
@@ -48,7 +49,6 @@
 | 运行密钥 | 一个可用的 **Hy3 OpenAI 兼容端点**（API_KEY / BASE_URL / MODEL_NAME） |
 | 网络 | 调用 Hy3 时需联网；无密钥可离线演示（降级模式） |
 
-> 最小化安装：`pip install pillow imageio imageio-ffmpeg`（仅当你要重新生成 `demo.mp4` / `demo.gif` 时才需要）。
 
 ### 2.1 配置密钥
 项目从仓库根目录的 `.env` 读取配置（代码自带解析，无需 `python-dotenv`）。
@@ -59,7 +59,6 @@
    BASE_URL=https://你的Hy3网关/v1
    MODEL_NAME=hy3
    ```
-   **`.env` 含密钥，请勿提交到公开仓库**（本仓库已用 `config.example.env` 替代）。
 
 ---
 
@@ -154,4 +153,3 @@ python demo/make_demo_gif.py      # 生成 demo/demo.gif（循环动画）
 | 四、分析报告（场景 / 方案 / 维度依据 / 结论 / 失败模式 / 典型模式） | `report/analysis_report.md` |
 | 五、Demo（≤ 2 分钟） | `demo/demo.mp4` · `demo/demo.gif` · `demo/demo.html` |
 
-> 注意：`.env`（含密钥）、`工作成果/`（历史重复副本）、`.vscode/`、`.workbuddy/` 已写入 `.gitignore`，不会上传。
